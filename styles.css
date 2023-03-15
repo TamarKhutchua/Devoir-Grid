@@ -8,15 +8,21 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  padding: 100px;
   background-color: blue;
   color: blue;
+}
+.wrapper div {
+  padding: 70px 0;
+  text-align: center;
+  font-size: xx-large;
 }
 .lorem {
   background-color: white;
   justify-content: space-between;
   padding: 0 20px;
   grid-column: 1;
-  grid-row: 1;
+  grid-row: 1 / span 2;
 }
 .culpa {
   background-color: white;
@@ -29,14 +35,14 @@
   background-color: white;
   justify-content: space-between;
   padding: 0 20px;
-  grid-column: 3;
+  grid-column: 3 / span 2;
   grid-row: 1;
 }
 .mollit {
   background-color: white;
   justify-content: space-between;
   padding: 0 20px;
-  grid-column: 2;
+  grid-column: 2 / span 2;
   grid-row: 2;
 }
 .exercitation {
@@ -57,7 +63,7 @@
   background-color: white;
   justify-content: space-between;
   padding: 0 20px;
-  grid-column: 1;
+  grid-column: 1 / span 2;
   grid-row: 4;
 }
 .laboris {
@@ -65,21 +71,21 @@
   justify-content: space-between;
   padding: 0 20px;
   grid-column: 3;
-  grid-row: 3;
+  grid-row: 3 / span 2;
 }
 .fugiat {
   background-color: white;
   justify-content: space-between;
   padding: 0 20px;
   grid-column: 4;
-  grid-row: 2;
+  grid-row: 2 / span 2;
 }
 .consectetur {
   background-color: white;
   justify-content: space-between;
   padding: 0 20px;
   grid-column: 4;
-  grid-row: 3;
+  grid-row: 4;
 }
 .pariatur {
   background-color: white;
@@ -92,7 +98,7 @@
   background-color: white;
   justify-content: space-between;
   padding: 0 20px;
-  grid-column: 2;
+  grid-column: 2 / span 2;
   grid-row: 5;
 }
 .excepteur {
