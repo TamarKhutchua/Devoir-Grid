@@ -16,94 +16,70 @@
   padding: 70px 0;
   text-align: center;
   font-size: xx-large;
-}
-.lorem {
   background-color: white;
   justify-content: space-between;
+}
+.lorem {
   padding: 0 20px;
   grid-column: 1;
   grid-row: 1 / span 2; /*es sityvac rom boxes centrshi yofiliyo ra unda damewera an wrapp div classhi rame sxvanairad unda chamewera rom amazec gavrcelebuliyo gacentvra?*/
 }
 .culpa {
-  background-color: white;
-  justify-content: space-between;
   padding: 0 20px;
   grid-column: 2;
   grid-row: 1;
 }
 .officia {
-  background-color: white;
-  justify-content: space-between;
   padding: 0 20px;
   grid-column: 3 / span 2;
   grid-row: 1;
 }
 .mollit {
-  background-color: white;
-  justify-content: space-between;
   padding: 0 20px;
   grid-column: 2 / span 2;
   grid-row: 2;
 }
 .exercitation {
-  background-color: white;
-  justify-content: space-between;
   padding: 0 20px;
   grid-column: 1;
   grid-row: 3;
 }
 .magna {
-  background-color: white;
-  justify-content: space-between;
   padding: 0 20px;
   grid-column: 2;
   grid-row: 3;
 }
 .ullamco {
-  background-color: white;
-  justify-content: space-between;
   padding: 0 20px;
   grid-column: 1 / span 2;
   grid-row: 4;
 }
 .laboris {
-  background-color: white;
-  justify-content: space-between;
   padding: 0 20px;
   grid-column: 3;
   grid-row: 3 / span 2;
 }
 .fugiat {
-  background-color: white;
-  justify-content: space-between;
   padding: 0 20px;
   grid-column: 4;
   grid-row: 2 / span 2;
 }
 .consectetur {
-  background-color: white;
-  justify-content: space-between;
   padding: 0 20px;
   grid-column: 4;
   grid-row: 4;
 }
 .pariatur {
-  background-color: white;
-  justify-content: space-between;
   padding: 0 20px;
   grid-column: 1;
   grid-row: 5;
 }
 .dolore {
-  background-color: white;
-  justify-content: space-between;
   padding: 0 20px;
   grid-column: 2 / span 2;
   grid-row: 5;
 }
 .excepteur {
-  background-color: white;
-  justify-content: space-between;
   padding: 0 20px;
   grid-column: 4;
   grid-row: 5;
