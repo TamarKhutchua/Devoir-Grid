@@ -5,62 +5,100 @@
 }
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   background-color: blue;
-  color: white;
-  justify-content: space-between;
+  color: blue;
 }
 .lorem {
-  grid-column: 1 / 3;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  grid-column: 1;
   grid-row: 1;
 }
 .culpa {
-  grid-column: 2 / 4;
-  grid-row: 1 / 3;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  grid-column: 2;
+  grid-row: 1;
 }
 .officia {
-  grid-column: 1;
-  grid-row: 2 / 5;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  grid-column: 3;
+  grid-row: 1;
 }
 .mollit {
-  grid-column: 3;
-  grid-row: 3;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  grid-column: 2;
+  grid-row: 2;
 }
 .exercitation {
-  grid-column: 2;
-  grid-row: 4;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  grid-column: 1;
+  grid-row: 3;
 }
 .magna {
-  grid-column: 3;
-  grid-row: 4;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  grid-column: 2;
+  grid-row: 3;
 }
 .ullamco {
-  grid-column: 3;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  grid-column: 1;
   grid-row: 4;
 }
 .laboris {
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
   grid-column: 3;
-  grid-row: 4;
+  grid-row: 3;
 }
 .fugiat {
-  grid-column: 3;
-  grid-row: 4;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  grid-column: 4;
+  grid-row: 2;
 }
 .consectetur {
-  grid-column: 3;
-  grid-row: 4;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  grid-column: 4;
+  grid-row: 3;
 }
 .pariatur {
-  grid-column: 3;
-  grid-row: 4;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  grid-column: 1;
+  grid-row: 5;
 }
 .dolore {
-  grid-column: 3;
-  grid-row: 4;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  grid-column: 2;
+  grid-row: 5;
 }
 .excepteur {
-  grid-column: 3;
-  grid-row: 4;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+  grid-column: 4;
+  grid-row: 5;
 }
