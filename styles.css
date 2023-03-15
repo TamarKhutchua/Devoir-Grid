@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  background-color: blue;
+  color: white;
+  justify-content: space-between;
+}
+.lorem {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.culpa {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+.officia {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.mollit {
+  grid-column: 3;
+  grid-row: 3;
+}
+.exercitation {
+  grid-column: 2;
+  grid-row: 4;
+}
+.magna {
+  grid-column: 3;
+  grid-row: 4;
+}
+.ullamco {
+  grid-column: 3;
+  grid-row: 4;
+}
+.laboris {
+  grid-column: 3;
+  grid-row: 4;
+}
+.fugiat {
+  grid-column: 3;
+  grid-row: 4;
+}
+.consectetur {
+  grid-column: 3;
+  grid-row: 4;
+}
+.pariatur {
+  grid-column: 3;
+  grid-row: 4;
+}
+.dolore {
+  grid-column: 3;
+  grid-row: 4;
+}
+.excepteur {
+  grid-column: 3;
+  grid-row: 4;
+}
