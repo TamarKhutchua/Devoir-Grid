@@ -22,7 +22,7 @@
   justify-content: space-between;
   padding: 0 20px;
   grid-column: 1;
-  grid-row: 1 / span 2;
+  grid-row: 1 / span 2; /*es sityvac rom boxes centrshi yofiliyo ra unda damewera an wrapp div classhi rame sxvanairad unda chamewera rom amazec gavrcelebuliyo gacentvra?*/
 }
 .culpa {
   background-color: white;
